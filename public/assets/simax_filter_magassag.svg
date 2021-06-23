@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="74px" height="34px"
+	 viewBox="0 0 74 34" enable-background="new 0 0 74 34" xml:space="preserve">
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  width="16383" height="16383" y="-8472" x="-7711" bottomLeftOrigin="true"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<rect x="68" y="4" fill="#0F206C" width="2" height="26"/>
+<polygon fill="#0F206C" points="71,6 69,6 67,6 65,6 69,2 73,6 "/>
+<polygon fill="#0F206C" points="67,28 69,28 71,28 73,28 69,32 65,28 "/>
+<polygon fill="#0F206C" points="43.482,19.016 39.237,15.067 35.518,19 34.097,19 29.757,14.747 31.153,13.315 34.77,16.977 
+	38.478,13 39.889,13 44.164,16.977 47.412,13.85 48.799,15.291 44.863,19.016 "/>
+<polygon fill="#0F206C" points="38.531,4 39.531,4 60.484,32 62.998,32 40.832,2.4 40.531,2 37.531,2 14.998,32 17.516,32 "/>
+<g>
+	<polygon fill="#0F206C" points="20.491,10 24.6,15.663 25.905,14.045 21.509,8 18.491,8 1.035,32 3.5,32 19.509,10 	"/>
+</g>
+<g>
+	<polygon fill="#0F206C" points="21.162,19.928 22.409,18.381 20.939,17 19.528,17 16.725,19.749 13.54,16.616 12.144,18.048 
+		16.052,22 17.474,22 20.191,19.009 	"/>
+</g>
+</svg>

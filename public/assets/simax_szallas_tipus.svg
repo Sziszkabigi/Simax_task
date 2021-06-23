@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" height="50px"
+	 viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  width="16383" height="16383" x="-7711" y="-8472" bottomLeftOrigin="true"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<path fill="none" stroke="#FF0E45" stroke-width="2" stroke-miterlimit="10" d="M8,27"/>
+<path fill="#FF0E45" d="M49,27l-23-8h-2l-11,3.826V20l-2-2H8l-2,2v5.261L1,27l1,1.733l4-1.38V45h2V26.663L24,21h2l16,5.663V45h2
+	V27.354l4,1.38L49,27z M8,20.414L8.414,20h2.172L11,20.414v3.107l-3,1.044V20.414z"/>
+<g>
+	<path fill="#FF0E45" d="M12.173,16C13.894,14.394,15,13.194,15,12c0-1.618-2-2.618-2-3c0-1.342,1.438-2.101,1.447-2.105
+		l-0.895-1.789C13.448,5.157,11,6.412,11,9c0,1.587,2,2.618,2,2.993c-0.055,0.583-1.821,2.209-2.671,2.99
+		C9.91,15.368,9.555,15.701,9.25,16H12.173z"/>
+</g>
+<path fill="#FF0E45" d="M37.415,38h-8.829L27,36.414v-4.828L28.586,30h8.828L39,31.586l-0.002,4.828L37.415,38z M29.414,36h7.171
+	L37,35.586v-3.172L36.586,32h-7.172L29,32.414v3.172L29.414,36z"/>
+<path fill="#FF0E45" d="M21.415,38h-8.829L11,36.414v-4.828L12.586,30h8.828L23,31.586l-0.002,4.828L21.415,38z M13.414,36h7.171
+	L21,35.586v-3.172L20.586,32h-7.172L13,32.414v3.172L13.414,36z"/>
+</svg>

@@ -1,2 +1,2 @@
-# Simax_task
+# Simax
 Created with CodeSandbox

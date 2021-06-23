@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1400px" height="67px"
+	 viewBox="0 0 1400 67" enable-background="new 0 0 1400 67" xml:space="preserve">
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  width="16383" height="16383" y="-8592" x="-7231" bottomLeftOrigin="true"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g>
+	<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" points="1392.967,63 1389.028,65.997 1381,65 1376,63 
+		1369.935,66 1357,57 1351,59 1339,53 1334,45 1326,44 1314,38 1301,47 1294,47 1275,60 1248,63 1202,42 1171,51 1153,45 1147,49 
+		1139,45 1128,47 1111,30 1098,32 1085,27 1081,20 1067,23 1048,20 1010,28 941,4 926,12 895,10 866,25 852,23 832,24 813,30 
+		795,32 778,22 773,27 766,24 756,32 739.055,18 733.046,21 709.013,22 683,29 668,25 654,30 646,26 638,29 630,23 619,27 597,18 
+		590,20 586,17 570,24 565,25 564,23 545,27 532,31 525,28 520,31 507,25 497,29 478,16 441,22 405,5 380,7 361,0 338,17 309,24 
+		290,12 271,17 262,14 246,20 240,16 231,13 208,34 177,43 143,38 114,53 106,47 99,48 86,38 74,44 66.116,45 61.109,54 54.099,57 
+		38.077,56 0.023,67 1400,67 	"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M941.384,3.635c0.005,0.002,0.011,0.004,0.016,0.005
+		C941.464,3.602,941.468,3.596,941.384,3.635z"/>
+</g>
+</svg>
