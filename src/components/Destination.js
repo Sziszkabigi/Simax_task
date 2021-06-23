@@ -25,30 +25,30 @@ export default class Destination extends React.Component {
           <ul>
             <li>
               <div className="box1">
-                <img src="./assets/simax_filter_euro.svg" alt="" />
-                <p>valami</p>
-                <p>valami</p>
+                <img src="./assets/simax_siterep_sipalya.svg" alt="" />
+                <h1>100</h1>
+                <p>Sipalya</p>
               </div>
             </li>
             <li>
               <div className="box2">
-                <img src="./assets/simax_filter_euro.svg" alt="" />
-                <p>valami</p>
-                <p>valami</p>
+                <img src="./assets/simax_siterep_sipalya_hossz.svg" alt="" />
+                <h1>200</h1>
+                <p>Sipalya hossza</p>
               </div>
             </li>
             <li>
               <div className="box3">
-                <img src="./assets/simax_filter_euro.svg" alt="" />
-                <p>valami</p>
-                <p>valami</p>
+                <img src="./assets/simax_siterep_magassag.svg" alt="" />
+                <h1>1280-3250</h1>
+                <p>Magassag</p>
               </div>
             </li>
             <li>
               <div className="box4">
-                <img src="./assets/simax_filter_euro.svg" alt="" />
-                <p>valami</p>
-                <p>valami</p>
+                <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                <h1>100</h1>
+                <p>Szallas</p>
               </div>
             </li>
           </ul>
