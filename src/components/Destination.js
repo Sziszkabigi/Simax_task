@@ -33,25 +33,72 @@ export default class Destination extends React.Component {
             <li>
               <div className="box">
                 <img src="./assets/simax_siterep_sipalya_hossz.svg" alt="" />
-                <h1>200</h1>
+                <h1>
+                  200 <span> m </span>{" "}
+                </h1>
                 <p>Sipalya hossza</p>
               </div>
             </li>
             <li>
               <div className="box">
                 <img src="./assets/simax_siterep_magassag.svg" alt="" />
-                <h1>1280-3250</h1>
+                <h1>
+                  1280-3250 <span> km </span>{" "}
+                </h1>
                 <p>Magassag</p>
               </div>
             </li>
             <li>
               <div className="box">
                 <img src="./assets/simax_siterep_szallas.svg" alt="" />
-                <h1>100</h1>
+                <h1>100 </h1>
                 <p>Szallas</p>
               </div>
             </li>
           </ul>
+        </div>
+
+        <div className="detail-row">
+          <div className="detail-row-r">
+            <ul>
+              <li>
+                <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                <p>0km </p>
+              </li>
+              <li>
+                <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                <p>0km </p>
+              </li>
+              <li>
+                <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                <p>0km </p>
+              </li>
+              <li>
+                <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                <p>0km </p>
+              </li>
+            </ul>
+          </div>
+          <div className="detail-row-r">
+            <ul>
+              <li>
+                <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                <p>0km </p>
+              </li>
+              <li>
+                <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                <p>0km </p>
+              </li>
+              <li>
+                <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                <p>0km </p>
+              </li>
+              <li>
+                <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                <p>0km </p>
+              </li>
+            </ul>
+          </div>
         </div>
         <Footer />
       </div>
