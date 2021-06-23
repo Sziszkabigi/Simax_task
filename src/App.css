@@ -443,6 +443,21 @@ input::placeholder {
 }
 
 .sky-detail li {
+  align-items: baseline;
   list-style: none;
-  margin: 10px;
+
+  text-align: center;
+}
+
+.box {
+  border: solid 0.3px lightgrey;
+  height: 150px;
+}
+
+.sky-detail ul {
+  display: flex;
+  justify-content: center;
+}
+.sky-detail h1 {
+  margin: 0 20px 0 20px;
 }
