@@ -169,21 +169,48 @@ export default class Destination extends React.Component {
               </p>
             </article>
           </div>
-          <button type="button" class="btn btn-success">
-            Success
-          </button>
-          <button class="btn btn-primary" type="submit">
-            Button
-          </button>
-          <a class="btn btn-primary" href="#" role="button">
-            Link
-          </a>
-          <a class="btn btn-primary" href="#" role="button">
-            Link
-          </a>
-          <a class="btn btn-primary" href="#" role="button">
-            Link
-          </a>
+
+          <div>
+            <button type="button" class="btn btn-success">
+              Success
+            </button>
+            <ul>
+              <li>
+                <button type="button" class="btn btn-success">
+                  Success
+                </button>
+              </li>
+              <li>
+                <button type="button" class="btn btn-success">
+                  Success
+                </button>
+              </li>
+            </ul>
+
+            <h1>Miert szeretjuk?0km</h1>
+            <ul>
+              <li>
+                <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                <p>A vilag egyik leghiresebb sikozpontja</p>
+              </li>
+              <li>
+                <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                <p>A</p>
+                <li>
+                  <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                  <p>A</p>
+                </li>
+                <li>
+                  <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                  <p>A</p>
+                </li>
+                <li>
+                  <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                  <p>A</p>
+                </li>
+              </li>
+            </ul>
+          </div>
         </div>
 
         <div className="map">MAP</div>
