@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Button } from "react-bootstrap";
 import Hero from "./Hero.js";
 import Footer from "./Footer.js";
 import Header from "./Header.js";
@@ -102,69 +103,90 @@ export default class Destination extends React.Component {
         </div>
 
         <div>
-          <article>
-            <h1>Les 2 Alpes 3600 -a jegbe zart paradicsom.</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut
-              mi tellus. In ornare fermentum iaculis. Integer viverra a tellus
-              sed laoreet. Donec tempor ipsum erat, at dapibus est pharetra vel.
-              Sed efficitur vestibulum aliquet. Mauris suscipit orci nec enim
-              dictum, ac imperdiet enim interdum. Morbi eget ante nisl. Nam
-              ornare est eu eros eleifend, et gravida elit hendrerit. Sed
-              tincidunt purus non metus volutpat, ut cursus nulla scelerisque.
-              Vivamus at posuere nisl, et luctus nunc. Morbi at nulla orci.
-              Donec consequat rutrum vulputate. Curabitur vel ornare leo. Sed
-              pretium purus sed tincidunt condimentum. Maecenas quis lacus odio.
-            </p>
-          </article>
-          <article>
-            <h1>Les 2 Alpes 3600 -a jegbe zart paradicsom.</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut
-              mi tellus. In ornare fermentum iaculis. Integer viverra a tellus
-              sed laoreet. Donec tempor ipsum erat, at dapibus est pharetra vel.
-              Sed efficitur vestibulum aliquet. Mauris suscipit orci nec enim
-              dictum, ac imperdiet enim interdum. Morbi eget ante nisl. Nam
-              ornare est eu eros eleifend, et gravida elit hendrerit. Sed
-              tincidunt purus non metus volutpat, ut cursus nulla scelerisque.
-              Vivamus at posuere nisl, et luctus nunc. Morbi at nulla orci.
-              Donec consequat rutrum vulputate. Curabitur vel ornare leo. Sed
-              pretium purus sed tincidunt condimentum. Maecenas quis lacus odio.
-            </p>
-          </article>
-          <article>
-            <h1>Les 2 Alpes 3600 -a jegbe zart paradicsom.</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut
-              mi tellus. In ornare fermentum iaculis. Integer viverra a tellus
-              sed laoreet. Donec tempor ipsum erat, at dapibus est pharetra vel.
-              Sed efficitur vestibulum aliquet. Mauris suscipit orci nec enim
-              dictum, ac imperdiet enim interdum. Morbi eget ante nisl. Nam
-              ornare est eu eros eleifend, et gravida elit hendrerit. Sed
-              tincidunt purus non metus volutpat, ut cursus nulla scelerisque.
-              Vivamus at posuere nisl, et luctus nunc. Morbi at nulla orci.
-              Donec consequat rutrum vulputate. Curabitur vel ornare leo. Sed
-              pretium purus sed tincidunt condimentum. Maecenas quis lacus odio.
-            </p>
-          </article>
-          <article>
-            <h1>Les 2 Alpes 3600 -a jegbe zart paradicsom.</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut
-              mi tellus. In ornare fermentum iaculis. Integer viverra a tellus
-              sed laoreet. Donec tempor ipsum erat, at dapibus est pharetra vel.
-              Sed efficitur vestibulum aliquet. Mauris suscipit orci nec enim
-              dictum, ac imperdiet enim interdum. Morbi eget ante nisl. Nam
-              ornare est eu eros eleifend, et gravida elit hendrerit. Sed
-              tincidunt purus non metus volutpat, ut cursus nulla scelerisque.
-              Vivamus at posuere nisl, et luctus nunc. Morbi at nulla orci.
-              Donec consequat rutrum vulputate. Curabitur vel ornare leo. Sed
-              pretium purus sed tincidunt condimentum. Maecenas quis lacus odio.
-            </p>
-          </article>
+          <div>
+            <article>
+              <h1>Les 2 Alpes 3600 -a jegbe zart paradicsom.</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                ut mi tellus. In ornare fermentum iaculis. Integer viverra a
+                tellus sed laoreet. Donec tempor ipsum erat, at dapibus est
+                pharetra vel. Sed efficitur vestibulum aliquet. Mauris suscipit
+                orci nec enim dictum, ac imperdiet enim interdum. Morbi eget
+                ante nisl. Nam ornare est eu eros eleifend, et gravida elit
+                hendrerit. Sed tincidunt purus non metus volutpat, ut cursus
+                nulla scelerisque. Vivamus at posuere nisl, et luctus nunc.
+                Morbi at nulla orci. Donec consequat rutrum vulputate. Curabitur
+                vel ornare leo. Sed pretium purus sed tincidunt condimentum.
+                Maecenas quis lacus odio.
+              </p>
+            </article>
+            <article>
+              <h1>Les 2 Alpes 3600 -a jegbe zart paradicsom.</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                ut mi tellus. In ornare fermentum iaculis. Integer viverra a
+                tellus sed laoreet. Donec tempor ipsum erat, at dapibus est
+                pharetra vel. Sed efficitur vestibulum aliquet. Mauris suscipit
+                orci nec enim dictum, ac imperdiet enim interdum. Morbi eget
+                ante nisl. Nam ornare est eu eros eleifend, et gravida elit
+                hendrerit. Sed tincidunt purus non metus volutpat, ut cursus
+                nulla scelerisque. Vivamus at posuere nisl, et luctus nunc.
+                Morbi at nulla orci. Donec consequat rutrum vulputate. Curabitur
+                vel ornare leo. Sed pretium purus sed tincidunt condimentum.
+                Maecenas quis lacus odio.
+              </p>
+            </article>
+            <article>
+              <h1>Les 2 Alpes 3600 -a jegbe zart paradicsom.</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                ut mi tellus. In ornare fermentum iaculis. Integer viverra a
+                tellus sed laoreet. Donec tempor ipsum erat, at dapibus est
+                pharetra vel. Sed efficitur vestibulum aliquet. Mauris suscipit
+                orci nec enim dictum, ac imperdiet enim interdum. Morbi eget
+                ante nisl. Nam ornare est eu eros eleifend, et gravida elit
+                hendrerit. Sed tincidunt purus non metus volutpat, ut cursus
+                nulla scelerisque. Vivamus at posuere nisl, et luctus nunc.
+                Morbi at nulla orci. Donec consequat rutrum vulputate. Curabitur
+                vel ornare leo. Sed pretium purus sed tincidunt condimentum.
+                Maecenas quis lacus odio.
+              </p>
+            </article>
+            <article>
+              <h1>Les 2 Alpes 3600 -a jegbe zart paradicsom.</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                ut mi tellus. In ornare fermentum iaculis. Integer viverra a
+                tellus sed laoreet. Donec tempor ipsum erat, at dapibus est
+                pharetra vel. Sed efficitur vestibulum aliquet. Mauris suscipit
+                orci nec enim dictum, ac imperdiet enim interdum. Morbi eget
+                ante nisl. Nam ornare est eu eros eleifend, et gravida elit
+                hendrerit. Sed tincidunt purus non metus volutpat, ut cursus
+                nulla scelerisque. Vivamus at posuere nisl, et luctus nunc.
+                Morbi at nulla orci. Donec consequat rutrum vulputate. Curabitur
+                vel ornare leo. Sed pretium purus sed tincidunt condimentum.
+                Maecenas quis lacus odio.
+              </p>
+            </article>
+          </div>
+          <button type="button" class="btn btn-success">
+            Success
+          </button>
+          <button class="btn btn-primary" type="submit">
+            Button
+          </button>
+          <a class="btn btn-primary" href="#" role="button">
+            Link
+          </a>
+          <a class="btn btn-primary" href="#" role="button">
+            Link
+          </a>
+          <a class="btn btn-primary" href="#" role="button">
+            Link
+          </a>
         </div>
 
-        <div className="map"></div>
+        <div className="map">MAP</div>
 
         <Footer />
       </div>
