@@ -100,6 +100,72 @@ export default class Destination extends React.Component {
             </ul>
           </div>
         </div>
+
+        <div>
+          <article>
+            <h1>Les 2 Alpes 3600 -a jegbe zart paradicsom.</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut
+              mi tellus. In ornare fermentum iaculis. Integer viverra a tellus
+              sed laoreet. Donec tempor ipsum erat, at dapibus est pharetra vel.
+              Sed efficitur vestibulum aliquet. Mauris suscipit orci nec enim
+              dictum, ac imperdiet enim interdum. Morbi eget ante nisl. Nam
+              ornare est eu eros eleifend, et gravida elit hendrerit. Sed
+              tincidunt purus non metus volutpat, ut cursus nulla scelerisque.
+              Vivamus at posuere nisl, et luctus nunc. Morbi at nulla orci.
+              Donec consequat rutrum vulputate. Curabitur vel ornare leo. Sed
+              pretium purus sed tincidunt condimentum. Maecenas quis lacus odio.
+            </p>
+          </article>
+          <article>
+            <h1>Les 2 Alpes 3600 -a jegbe zart paradicsom.</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut
+              mi tellus. In ornare fermentum iaculis. Integer viverra a tellus
+              sed laoreet. Donec tempor ipsum erat, at dapibus est pharetra vel.
+              Sed efficitur vestibulum aliquet. Mauris suscipit orci nec enim
+              dictum, ac imperdiet enim interdum. Morbi eget ante nisl. Nam
+              ornare est eu eros eleifend, et gravida elit hendrerit. Sed
+              tincidunt purus non metus volutpat, ut cursus nulla scelerisque.
+              Vivamus at posuere nisl, et luctus nunc. Morbi at nulla orci.
+              Donec consequat rutrum vulputate. Curabitur vel ornare leo. Sed
+              pretium purus sed tincidunt condimentum. Maecenas quis lacus odio.
+            </p>
+          </article>
+          <article>
+            <h1>Les 2 Alpes 3600 -a jegbe zart paradicsom.</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut
+              mi tellus. In ornare fermentum iaculis. Integer viverra a tellus
+              sed laoreet. Donec tempor ipsum erat, at dapibus est pharetra vel.
+              Sed efficitur vestibulum aliquet. Mauris suscipit orci nec enim
+              dictum, ac imperdiet enim interdum. Morbi eget ante nisl. Nam
+              ornare est eu eros eleifend, et gravida elit hendrerit. Sed
+              tincidunt purus non metus volutpat, ut cursus nulla scelerisque.
+              Vivamus at posuere nisl, et luctus nunc. Morbi at nulla orci.
+              Donec consequat rutrum vulputate. Curabitur vel ornare leo. Sed
+              pretium purus sed tincidunt condimentum. Maecenas quis lacus odio.
+            </p>
+          </article>
+          <article>
+            <h1>Les 2 Alpes 3600 -a jegbe zart paradicsom.</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut
+              mi tellus. In ornare fermentum iaculis. Integer viverra a tellus
+              sed laoreet. Donec tempor ipsum erat, at dapibus est pharetra vel.
+              Sed efficitur vestibulum aliquet. Mauris suscipit orci nec enim
+              dictum, ac imperdiet enim interdum. Morbi eget ante nisl. Nam
+              ornare est eu eros eleifend, et gravida elit hendrerit. Sed
+              tincidunt purus non metus volutpat, ut cursus nulla scelerisque.
+              Vivamus at posuere nisl, et luctus nunc. Morbi at nulla orci.
+              Donec consequat rutrum vulputate. Curabitur vel ornare leo. Sed
+              pretium purus sed tincidunt condimentum. Maecenas quis lacus odio.
+            </p>
+          </article>
+        </div>
+
+        <div className="map"></div>
+
         <Footer />
       </div>
     );
