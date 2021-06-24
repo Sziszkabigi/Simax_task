@@ -4,7 +4,7 @@
 //import App from "./components/App";
 
 //ReactDOM.render(<App />, document.getElementById("root"));
-
+import "bootstrap/dist/css/bootstrap.css";
 import React from "react";
 import Home from "./components/Home.js";
 import Destination from "./components/Destination.js";

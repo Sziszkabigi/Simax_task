@@ -1,10 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import Hero from "./Hero.js";
 import Footer from "./Footer.js";
 import Header from "./Header.js";
-import "bootstrap/dist/css/bootstrap.css";
 
 export default class Destination extends React.Component {
   render() {
