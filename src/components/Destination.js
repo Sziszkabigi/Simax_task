@@ -170,7 +170,7 @@ export default class Destination extends React.Component {
             </article>
           </div>
 
-          <div className=" dest-middle-l">
+          <div className=" dest-middle-r">
             <button type="button" class="btn btn-success">
               Success
             </button>
@@ -224,6 +224,19 @@ export default class Destination extends React.Component {
 
         <div className="map">MAP</div>
 
+        <h2>A siterep Szallasai</h2>
+
+        <div className="dest-bottom">
+          <div className="pic-box">
+            <h3> The People Hostel </h3>
+          </div>
+          <div className="pic-box">
+            <h3> The People Hostel </h3>
+          </div>
+          <div className="pic-box">
+            <h3> The People Hostel </h3>
+          </div>
+        </div>
         <Footer />
       </div>
     );
