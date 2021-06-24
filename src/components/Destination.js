@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Button } from "react-bootstrap";
+
 import Hero from "./Hero.js";
 import Footer from "./Footer.js";
 import Header from "./Header.js";
+import "bootstrap/dist/css/bootstrap.css";
 
 export default class Destination extends React.Component {
   render() {
@@ -237,6 +238,9 @@ export default class Destination extends React.Component {
             <h3> The People Hostel </h3>
           </div>
         </div>
+        <button type="button" class="btn btn-success">
+          Success
+        </button>
         <Footer />
       </div>
     );

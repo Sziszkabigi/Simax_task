@@ -513,6 +513,11 @@ input::placeholder {
 .pic-box {
   width: 300px;
   height: 200px;
+  margin: 20px;
   color: white;
   background-color: black;
+}
+
+h2 {
+  text-align: center;
 }
