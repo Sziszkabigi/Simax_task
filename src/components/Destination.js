@@ -102,8 +102,8 @@ export default class Destination extends React.Component {
           </div>
         </div>
 
-        <div>
-          <div>
+        <div className="dest-middle">
+          <div className="dest-middle-l">
             <article>
               <h1>Les 2 Alpes 3600 -a jegbe zart paradicsom.</h1>
               <p>
@@ -170,11 +170,11 @@ export default class Destination extends React.Component {
             </article>
           </div>
 
-          <div>
+          <div className=" dest-middle-l">
             <button type="button" class="btn btn-success">
               Success
             </button>
-            <ul>
+            <ul className="ul-button">
               <li>
                 <button type="button" class="btn btn-success">
                   Success
@@ -188,26 +188,35 @@ export default class Destination extends React.Component {
             </ul>
 
             <h1>Miert szeretjuk?0km</h1>
+
             <ul>
               <li>
                 <img src="./assets/simax_siterep_szallas.svg" alt="" />
                 <p>A vilag egyik leghiresebb sikozpontja</p>
               </li>
+            </ul>
+            <ul>
               <li>
                 <img src="./assets/simax_siterep_szallas.svg" alt="" />
-                <p>A</p>
-                <li>
-                  <img src="./assets/simax_siterep_szallas.svg" alt="" />
-                  <p>A</p>
-                </li>
-                <li>
-                  <img src="./assets/simax_siterep_szallas.svg" alt="" />
-                  <p>A</p>
-                </li>
-                <li>
-                  <img src="./assets/simax_siterep_szallas.svg" alt="" />
-                  <p>A</p>
-                </li>
+                <p>A vilag egyik leghiresebb sikozpontja</p>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                <p>A vilag egyik leghiresebb sikozpontja</p>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                <p>A vilag egyik leghiresebb sikozpontja</p>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                <p>A vilag egyik leghiresebb sikozpontja</p>
               </li>
             </ul>
           </div>
