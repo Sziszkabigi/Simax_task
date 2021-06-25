@@ -7,7 +7,7 @@ import Header from "./Header.js";
 export default class Destination extends React.Component {
   render() {
     return (
-      <div className="container">
+      <div className="">
         <Header />
         <div className="hero-2-container">
           <h1> Les 2 ALpes </h1>
