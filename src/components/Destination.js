@@ -173,12 +173,12 @@ export default class Destination extends React.Component {
             </button>
             <ul className="ul-button">
               <li>
-                <button type="button" class="btn btn-success">
+                <button type="button" className="btn btn-success">
                   Success
                 </button>
               </li>
               <li>
-                <button type="button" class="btn btn-success">
+                <button type="button" className="btn btn-success">
                   Success
                 </button>
               </li>
@@ -234,7 +234,7 @@ export default class Destination extends React.Component {
             <h3> The People Hostel </h3>
           </div>
         </div>
-        <button type="button" class="btn btn-success">
+        <button type="button" className="btn btn-success">
           Success
         </button>
         <Footer />
