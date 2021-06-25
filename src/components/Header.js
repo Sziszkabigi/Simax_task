@@ -16,13 +16,13 @@ function Header() {
       <nav>
         <ul className="menu">
           <li className="menu-item">
-            <a className="menu-link" target="_self" title="FOOLDAL">
+            <a href="" target="_" title="FOOLDAL">
               <Link to="/">Fooldal</Link>
             </a>
           </li>
           <li className="menu-item">
-            <a className="menu-link" href="" target="" title="SITEREPEK">
-              SITEREPEK{" "}
+            <a href="" target="" title="SITEREPEK">
+              SITEREPEK
             </a>
           </li>
           <li className="menu-item">

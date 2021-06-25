@@ -6,7 +6,8 @@ function Hero() {
   return (
     <div className="hero-container">
       <div className="svg-cover">
-        <Triangle width={900} height={522} fill="#FF1044" />
+        {/*<Triangle width={900} height={522} fill="#FF1044" /> 
+      I have to comment othervise header hoover not working*/}
       </div>
       <Header />
       <div className="hero-content">

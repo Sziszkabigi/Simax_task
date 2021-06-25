@@ -5,15 +5,17 @@
   padding: 0;
   box-sizing: border-box;
 }
-.mt-0 {
-  margin-top: 0 !important;
-}
 
 body {
   font-family: "Open Sans", sans-serif;
 }
+
 li {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* ***** Container ****** */
@@ -114,11 +116,29 @@ header {
   margin: 10px;
   list-style: none;
   text-transform: uppercase;
+  cursor: pointer;
+}
+.menu-item a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
 .menu-link {
   text-decoration: none;
   color: white;
   font-weight: bold;
+}
+.menu-link:hover {
+  color: #ff1044;
+}
+.menu-item a:hover {
+  color: #ff1044;
+}
+nav a {
+  color: yellow;
+}
+nav a:hover {
+  color: red;
 }
 
 /* ***** Filter ****** */
@@ -167,6 +187,7 @@ main {
   width: 90%;
   height: 100%;
   margin-top: 10px;
+
   /*grid-template:
     /*"header" header heade 50px
     "main main main " 1fr

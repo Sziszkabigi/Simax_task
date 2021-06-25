@@ -8,8 +8,6 @@ export default class Destination extends React.Component {
   render() {
     return (
       <div className="container">
-        <h1>This is my profile</h1>
-        <Link to="/">Go back to App</Link>
         <Header />
         <div className="hero-2-container">
           <h1> Les 2 ALpes </h1>
