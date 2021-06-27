@@ -468,7 +468,8 @@ input::placeholder {
 .hero-2-container {
   height: 458px;
   width: 100%;
-  background-image: url("./assets/hero2.jpg");
+  background-image: linear-gradient(to bottom, #011621ba, rgb(60 54 54 / 45%)),
+    url("./assets/hero2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left, center;
