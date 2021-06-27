@@ -13,18 +13,10 @@ function Footer() {
               fel hirlevelunkre, es ne aggodj nem szemeteljuk tele a tarhelyed
               ....
             </p>
+            <FormComponent />
           </div>
-
-          <form>
-            <label className="email">
-              <input type="text" email="email" placeholder="Email cimed..." />
-            </label>
-            <input className="submit" type="submit" value="Kuldes" />
-          </form>
         </div>
       </div>
-
-      <FormComponent />
 
       <div className="footer-bottom">
         <div className="footer-logo">

@@ -23,13 +23,7 @@ class FormComponent extends React.Component {
     this.handleChange = this.handleChange.bind(this);
     this.handleBlur = this.handleBlur.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
-    this.validateFirstName = this.validateFirstName.bind(this);
-    this.validateLastName = this.validateLastName.bind(this);
     this.validateEmailAddress = this.validateEmailAddress.bind(this);
-    this.validatePassword = this.validatePassword.bind(this);
-    this.validatePasswordConfirmation = this.validatePasswordConfirmation.bind(
-      this
-    );
     this.validateField = this.validateField.bind(this);
   }
 
@@ -156,32 +150,6 @@ class FormComponent extends React.Component {
         ) : (
           <form onSubmit={this.handleSubmit}>
             <input
-              type="text"
-              placeholder="First Name"
-              name="firstName"
-              value={this.state.firstName}
-              onChange={this.handleChange}
-              onBlur={this.handleBlur}
-              autoComplete="off"
-            />
-            <br />
-            {this.state.firstNameError && (
-              <div className="errorMsg">{this.state.firstNameError}</div>
-            )}
-            <input
-              type="text"
-              placeholder="Last Name"
-              name="lastName"
-              value={this.state.lastName}
-              onChange={this.handleChange}
-              onBlur={this.handleBlur}
-              autoComplete="off"
-            />
-            <br />
-            {this.state.lastNameError && (
-              <div className="errorMsg">{this.state.lastNameError}</div>
-            )}
-            <input
               type="email"
               placeholder="Email Address"
               name="emailAddress"
@@ -194,34 +162,7 @@ class FormComponent extends React.Component {
             {this.state.emailAddressError && (
               <div className="errorMsg">{this.state.emailAddressError}</div>
             )}
-            <input
-              type="password"
-              placeholder="Password"
-              name="password"
-              value={this.state.password}
-              onChange={this.handleChange}
-              onBlur={this.handleBlur}
-              autoComplete="off"
-            />
-            <br />
-            {this.state.passwordError && (
-              <div className="errorMsg">{this.state.passwordError}</div>
-            )}
-            <input
-              type="password"
-              placeholder="Confirm Password"
-              name="passwordConfirmation"
-              value={this.state.passwordConfirmation}
-              onChange={this.handleChange}
-              onBlur={this.handleBlur}
-              autoComplete="off"
-            />
-            <br />
-            {this.state.passwordConfirmationError && (
-              <div className="errorMsg">
-                {this.state.passwordConfirmationError}
-              </div>
-            )}
+
             <button>Signup</button>
           </form>
         )}

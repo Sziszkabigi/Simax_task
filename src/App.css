@@ -813,3 +813,42 @@ h2 {
   background-position: center;
   background-size: cover;
 }
+
+/* FormCOMPONENT */
+
+.main form {
+  display: flex;
+  justify-content: center;
+}
+
+.main .details > div {
+  margin: 15px;
+  font-weight: 200;
+}
+
+.main .details > h3 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+
+input[type="password"],
+input[type="text"] {
+  width: 300px;
+}
+
+input {
+  width: 350px;
+}
+
+input,
+button {
+  padding: 10px;
+  margin: 5px;
+}
+
+.errorMsg {
+  padding: 5px;
+  margin: 0px;
+  font-size: 11px;
+  color: red;
+}
