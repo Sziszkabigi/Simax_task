@@ -214,12 +214,17 @@ main {
   top: -44%;
   left: 34%;
   background-color: #3ad678;
+  color: white;
+
   width: 130px;
   height: 35px;
   border: none;
 }
 .card-container .btn-danger {
   display: none;
+}
+.card-container .btn-danger a {
+  color: white;
 }
 
 .x ul {

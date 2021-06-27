@@ -4,7 +4,6 @@ import Hero from "./Hero.js";
 import Footer from "./Footer.js";
 import Header from "./Header.js";
 import Flickity from "react-flickity-component";
-import "./flickity.css";
 
 function Carousel() {
   const flickityOptions = {
