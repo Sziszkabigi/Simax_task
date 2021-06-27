@@ -89,10 +89,10 @@ const CardListItem = (props) => {
             alt=""
           />
         </div>
+        <button type="button" class="btn btn-danger">
+          <Link to="/destination">Megnezem</Link>
+        </button>
         <div className="card-content">
-          <button type="button" class="btn btn-danger">
-            <Link to="/destination">Megnezem</Link>
-          </button>
           <h1 className="card-place">
             <strong>{props.slope.name}</strong>
           </h1>

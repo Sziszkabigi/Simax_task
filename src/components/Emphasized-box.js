@@ -4,7 +4,7 @@ function EmphasizedBox() {
   return (
     <div className="emphasized-container">
       <div className="emphasized-box">
-        <img className="emphasized-image" src="./assets/hero.jpg" alt="" />
+        <img className="emphasized-image" src="./assets/group.jpg" alt="" />
         <div>
           <h1> Nincs tarsasagod de Franciaorszagba vagysz? </h1>
           <p>
