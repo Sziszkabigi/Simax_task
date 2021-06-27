@@ -46,13 +46,7 @@ class FormComponent extends React.Component {
 
   handleSubmit(event) {
     event.preventDefault();
-    let formFileds = [
-      "firstName",
-      "lastName",
-      "emailAddress",
-      "password",
-      "passwordConfirmation"
-    ];
+    let formFileds = ["emailAddress"];
     let isValid = true;
     formFileds.forEach((field) => {
       isValid = this.validateField(field) && isValid;
@@ -76,28 +70,6 @@ class FormComponent extends React.Component {
     return isValid;
   }
 
-  validateFirstName() {
-    let firstNameError = "";
-    const value = this.state.firstName;
-    if (value.trim() === "") firstNameError = "First Name is required";
-
-    this.setState({
-      firstNameError
-    });
-    return firstNameError === "";
-  }
-
-  validateLastName() {
-    let lastNameError = "";
-    const value = this.state.lastName;
-    if (value.trim() === "") lastNameError = "Last Name is required";
-
-    this.setState({
-      lastNameError
-    });
-    return lastNameError === "";
-  }
-
   validateEmailAddress() {
     let emailAddressError = "";
     const value = this.state.emailAddress;
@@ -111,40 +83,13 @@ class FormComponent extends React.Component {
     return emailAddressError === "";
   }
 
-  validatePassword() {
-    let passwordError = "";
-    const value = this.state.password;
-    if (value.trim === "") passwordError = "Password is required";
-    else if (!passwordValidator.test(value))
-      passwordError =
-        "Password must contain at least 8 characters, 1 number, 1 upper and 1 lowercase!";
-
-    this.setState({
-      passwordError
-    });
-    return passwordError === "";
-  }
-
-  validatePasswordConfirmation() {
-    let passwordConfirmationError = "";
-    if (this.state.password !== this.state.passwordConfirmation)
-      passwordConfirmationError = "Password does not match Confirmation";
-
-    this.setState({
-      passwordConfirmationError
-    });
-    return passwordConfirmationError === "";
-  }
-
   render() {
     return (
       <div className="main">
-        <h3>SignUp Form</h3>
         {this.state.isFormSubmitted ? (
           <div className="details">
             <h3>Thanks for signing up, find your details below:</h3>
-            <div>First Name: {this.state.firstName}</div>
-            <div>Last Name: {this.state.lastName}</div>
+
             <div>Email Address: {this.state.emailAddress}</div>
           </div>
         ) : (
