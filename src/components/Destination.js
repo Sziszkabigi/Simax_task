@@ -200,53 +200,57 @@ export default class Destination extends React.Component {
 
           <div className=" dest-middle-r">
             <button id="btn-1" type="button" class="btn btn-success">
-              Success
+              SZALLASOK ES ARAK
             </button>
             <ul className="ul-button">
               <li>
                 <button type="button" className="btn btn-success">
-                  Success
+                  GALERIA
                 </button>
               </li>
               <li>
                 <button type="button" className="btn btn-success">
-                  Success
+                  SITEREPEK
                 </button>
               </li>
             </ul>
+            <div className="dest-middle-r-box">
+              <h1>Miert szeretjuk?</h1>
 
-            <h1>Miert szeretjuk?0km</h1>
-
-            <ul>
-              <li>
-                <img src="./assets/simax_miert_szeretjuk.svg" alt="" />
-                <p>A vilag egyik leghiresebb sikozpontja</p>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <img src="./assets/simax_miert_szeretjuk.svg" alt="" />
-                <p>A vilag egyik leghiresebb sikozpontja</p>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <img src="./assets/simax_miert_szeretjuk.svg" alt="" />
-                <p>A vilag egyik leghiresebb sikozpontja</p>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <img src="./assets/simax_miert_szeretjuk.svg" alt="" />
-                <p>A vilag egyik leghiresebb sikozpontja</p>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <img src="./assets/simax_miert_szeretjuk.svg" alt="" />
-                <p>A vilag egyik leghiresebb sikozpontja</p>
-              </li>
-            </ul>
+              <ul>
+                <li>
+                  <img src="./assets/simax_miert_szeretjuk.svg" alt="" />
+                  <p>A vilag egyik leghiresebb sikozpontja</p>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <img src="./assets/simax_miert_szeretjuk.svg" alt="" />
+                  <p>
+                    Ketezer meter szintet lehet egyben besielni. (Akar kezdoknek
+                    is! )
+                  </p>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <img src="./assets/simax_miert_szeretjuk.svg" alt="" />
+                  <p>A vilag egyik leghiresebb sikozpontja</p>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <img src="./assets/simax_miert_szeretjuk.svg" alt="" />
+                  <p>A vilag egyik leghiresebb sikozpontja</p>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <img src="./assets/simax_miert_szeretjuk.svg" alt="" />
+                  <p>A vilag egyik leghiresebb sikozpontja</p>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
 
@@ -277,10 +281,11 @@ export default class Destination extends React.Component {
         </div> */}
 
         <Carousel />
-
-        <button type="button" className="btn btn-success">
-          Success
-        </button>
+        <div className="btn2-div">
+          <button id="btn-2" type="button" className="btn btn-success">
+            Teljes szallaslista
+          </button>
+        </div>
         <Footer />
       </div>
     );
