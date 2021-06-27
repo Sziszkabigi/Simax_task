@@ -1,4 +1,5 @@
 import { React } from "react";
+import FormComponent from "./FormComponent.js";
 
 function Footer() {
   return (
@@ -22,6 +23,8 @@ function Footer() {
           </form>
         </div>
       </div>
+
+      <FormComponent />
 
       <div className="footer-bottom">
         <div className="footer-logo">
