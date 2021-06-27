@@ -88,7 +88,7 @@ class FormComponent extends React.Component {
       <div className="main">
         {this.state.isFormSubmitted ? (
           <div className="details">
-            <h3>Thanks for signing up, find your details below:</h3>
+            <h3>Koszonjuk!Sikeresen feliratkoztal!</h3>
 
             <div>Email Address: {this.state.emailAddress}</div>
           </div>

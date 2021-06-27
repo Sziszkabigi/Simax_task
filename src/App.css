@@ -395,11 +395,6 @@ input::placeholder {
   line-height: 24px;
 }
 
-.email input {
-  margin: 30px;
-  height: 50px;
-  width: 438px;
-}
 .submit {
   height: 50px;
   width: 117px;
@@ -844,7 +839,6 @@ h2 {
   padding-bottom: 15px;
 }
 
-input[type="password"],
 input[type="text"] {
   width: 300px;
 }
@@ -853,6 +847,11 @@ input {
   width: 350px;
   padding: 10px;
   margin: 5px;
+  color: gray;
+}
+
+input::placeholder {
+  color: gray;
 }
 
 .main button {
