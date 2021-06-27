@@ -3,6 +3,37 @@ import { Link } from "react-router-dom";
 import Hero from "./Hero.js";
 import Footer from "./Footer.js";
 import Header from "./Header.js";
+import Flickity from "react-flickity-component";
+import "./flickity.css";
+
+function Carousel() {
+  const flickityOptions = {
+    autoPlay: 4000,
+    pageDots: false,
+    wrapAround: true,
+    cellAlign: "left"
+  };
+
+  return (
+    <Flickity options={flickityOptions}>
+      <div className="flickity">
+        <img src="./assets/mountain_1.jpg" alt="" />
+      </div>
+      <div className="flickity">
+        <img src="./assets/mountain_1.jpg" alt="" />
+      </div>
+      <div className="flickity">
+        <img src="./assets/mountain_1.jpg" alt="" />
+      </div>
+      <div className="flickity">
+        <img src="./assets/mountain_1.jpg" alt="" />
+      </div>
+      <div className="flickity">
+        <img src="./assets/mountain_1.jpg" alt="" />
+      </div>
+    </Flickity>
+  );
+}
 
 export default class Destination extends React.Component {
   render() {
@@ -10,8 +41,8 @@ export default class Destination extends React.Component {
       <div className="">
         <Header />
         <div className="hero-2-container">
-          <h1> Les 2 ALpes </h1>
-          <h1> 3600 </h1>
+          <h1 id="content-1"> Les 2 ALpes </h1>
+          <h1 id="content-2"> 3600 </h1>
           <img
             className="siterep"
             src="./assets/simax_siterepek_mountains.svg"
@@ -60,19 +91,19 @@ export default class Destination extends React.Component {
           <div className="detail-row-r">
             <ul>
               <li>
-                <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                <img src="./assets/simax_siterep_z”ld_palya.svg" alt="" />
                 <p>0km </p>
               </li>
               <li>
-                <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                <img src="./assets/simax_siterep_kek_palya.svg" alt="" />
                 <p>0km </p>
               </li>
               <li>
-                <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                <img src="./assets/simax_siterep_piros_palya.svg" alt="" />
                 <p>0km </p>
               </li>
               <li>
-                <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                <img src="./assets/simax_siterep_fekete_palya.svg" alt="" />
                 <p>0km </p>
               </li>
             </ul>
@@ -80,19 +111,19 @@ export default class Destination extends React.Component {
           <div className="detail-row-r">
             <ul>
               <li>
-                <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                <img src="./assets/simax_siterep_tanyeros.svg" alt="" />
                 <p>0km </p>
               </li>
               <li>
-                <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                <img src="./assets/simax_siterep_ulos.svg" alt="" />
                 <p>0km </p>
               </li>
               <li>
-                <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                <img src="./assets/simax_siterep_kis_kabin.svg" alt="" />
                 <p>0km </p>
               </li>
               <li>
-                <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                <img src="./assets/simax_siterep_snowpark.svg" alt="" />
                 <p>0km </p>
               </li>
             </ul>
@@ -168,7 +199,7 @@ export default class Destination extends React.Component {
           </div>
 
           <div className=" dest-middle-r">
-            <button type="button" class="btn btn-success">
+            <button id="btn-1" type="button" class="btn btn-success">
               Success
             </button>
             <ul className="ul-button">
@@ -188,31 +219,31 @@ export default class Destination extends React.Component {
 
             <ul>
               <li>
-                <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                <img src="./assets/simax_miert_szeretjuk.svg" alt="" />
                 <p>A vilag egyik leghiresebb sikozpontja</p>
               </li>
             </ul>
             <ul>
               <li>
-                <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                <img src="./assets/simax_miert_szeretjuk.svg" alt="" />
                 <p>A vilag egyik leghiresebb sikozpontja</p>
               </li>
             </ul>
             <ul>
               <li>
-                <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                <img src="./assets/simax_miert_szeretjuk.svg" alt="" />
                 <p>A vilag egyik leghiresebb sikozpontja</p>
               </li>
             </ul>
             <ul>
               <li>
-                <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                <img src="./assets/simax_miert_szeretjuk.svg" alt="" />
                 <p>A vilag egyik leghiresebb sikozpontja</p>
               </li>
             </ul>
             <ul>
               <li>
-                <img src="./assets/simax_siterep_szallas.svg" alt="" />
+                <img src="./assets/simax_miert_szeretjuk.svg" alt="" />
                 <p>A vilag egyik leghiresebb sikozpontja</p>
               </li>
             </ul>
@@ -222,6 +253,16 @@ export default class Destination extends React.Component {
         <div className="map">MAP</div>
 
         <h2>A siterep Szallasai</h2>
+
+        {/*
+
+        <div className="carousel" data-flickity='{ "groupCells": true }'>
+          <div  className="carousel-cell"></div>
+          <div className="carousel-cell"></div>
+          <div className="carousel-cell"></div>
+          <div className="carousel-cell"></div>
+          <div className="carousel-cell"></div>
+        </div>
 
         <div className="dest-bottom">
           <div className="pic-box">
@@ -233,7 +274,10 @@ export default class Destination extends React.Component {
           <div className="pic-box">
             <h3> The People Hostel </h3>
           </div>
-        </div>
+        </div> */}
+
+        <Carousel />
+
         <button type="button" className="btn btn-success">
           Success
         </button>
