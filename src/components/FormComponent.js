@@ -108,7 +108,7 @@ class FormComponent extends React.Component {
               <div className="errorMsg">{this.state.emailAddressError}</div>
             )}
 
-            <button>Signup</button>
+            <button>KULDES</button>
           </form>
         )}
       </div>

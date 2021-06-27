@@ -16,7 +16,7 @@ function Header() {
       <nav>
         <ul className="menu">
           <li className="menu-item">
-            <a href="" target="_" title="FOOLDAL">
+            <a>
               <Link to="/">Fooldal</Link>
             </a>
           </li>
