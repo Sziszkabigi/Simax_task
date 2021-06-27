@@ -643,6 +643,7 @@ input::placeholder {
   top: -23px;
   background-color: white;
   margin-left: 5px;
+  height: 35px;
 }
 
 .pic-box {
