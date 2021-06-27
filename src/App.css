@@ -208,6 +208,12 @@ main {
   /* margin-right: auto; */
   /* margin: auto; */
 }
+.btn-danger {
+  background-color: #3ad678;
+  width: 130px;
+  height: 35px;
+  border: none;
+}
 
 .x ul {
   display: grid;
@@ -275,16 +281,14 @@ main {
   display: grid;
   justify-content: center;
   position: relative;
-  bottom: 250px;
+  bottom: 290px;
   color: white;
 }
 
 .card-price {
   position: relative;
-  bottom: 240px;
+  bottom: 260px;
   color: white;
-  position: relative;
-  bottom: 200px;
 }
 
 .card-content hr {
