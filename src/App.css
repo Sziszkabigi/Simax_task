@@ -123,6 +123,10 @@ header {
   color: white;
   font-weight: bold;
 }
+.menu-item a:hover {
+  text-decoration: underline;
+  color: #ff1044;
+}
 .menu-link {
   text-decoration: none;
   color: white;
